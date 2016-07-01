@@ -41,6 +41,14 @@ namespace ContactList.Objects
     {
       _address = address;
     }
+    public void Save()
+    {
+      _contactList.Add(this);
+    }
+    public static void ClearAll()
+    {
+      _contactList.Clear();
+    }
 
     public static List<Contact> GetList()
     {

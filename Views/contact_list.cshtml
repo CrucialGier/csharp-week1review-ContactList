@@ -1,11 +1,14 @@
 <h2>Contacts</h2>
 
 <ul>
-@foreach (var contact in Model.GetList()) {
-  <li>this.GetName()</li>
-  <li>this.GetPhone()</li>
-  <li>this.GetAddress()</li>
+
+@foreach (var contact in Model)
+{
+  <li>@contact.GetName()</li>
+  <li>@contact.GetPhone()</li>
+  <li>@contact.GetAddress()</li>
   <br>
 }
+
 </ul>
-<a href="/new-contact">Add Contact</a>
+<a href="/new_contact">Add Contact</a>

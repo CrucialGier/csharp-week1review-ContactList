@@ -1,4 +1,11 @@
 <h2>Contacts Menu</h2>
 
+<ul>
+  @foreach(var contact in Model)
+  {
+    <li>@contact.GetName()</li>
+  }
+</ul>
+
 <a href="/view_all_contacts">Contact List</a>
 <a href="/new_contact">Add New Contact</a>
