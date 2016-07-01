@@ -1,3 +1,11 @@
+###Contact List
+#By Stewart Cole 7/1/2016
+
+##Setup
+
+Assuming you are running on windows and you have mono and nancy installed.
+Enter the files directory using the console and enter dnx kestrel then visit localhost in your web browser.
+
 ##Specs
 
 Each contact should have info containing their Name, PhoneNumber and Address.
@@ -27,3 +35,11 @@ A ClearContacts meathod to remove all contacts from ContactList.
   Example: ContactList = {(Kevin, Phone Address), (Judy, Phone, Address)};
             Click "Remove Contact" on contact Judy;
             ContactList = {(Kevin, Phone, Address)};
+
+##Known Bugs
+
+None at the moment
+
+##Copyright
+
+Stewart Cole copyright(c) 7/1/2016
