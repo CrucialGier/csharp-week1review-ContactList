@@ -8,7 +8,8 @@ namespace ContactList
   {
     public HomeModule()
     {
-
+      Get["/"] = _ => View["contact-list.cshtml"];
+      Get["/"] = _ => View["new-contact.cshtml"];
     }
   }
 }

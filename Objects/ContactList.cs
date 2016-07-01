@@ -38,6 +38,10 @@ namespace ContactList.Objects
     {
       _address = address;
     }
+    public List<Contact> GetList()
+    {
+      return _contactList;
+    }
 
   }
 }
