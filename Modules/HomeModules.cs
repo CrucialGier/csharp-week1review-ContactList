@@ -2,14 +2,13 @@ using Nancy;
 using ContactList.Objects;
 using System.Collections.Generic;
 
-namespace ContactList
+namespace Contacts
 {
   public class HomeModule : NancyModule
   {
     public HomeModule()
     {
-      Get["/"] = _ => View["contact-list.cshtml"];
-      Get["/"] = _ => View["new-contact.cshtml"];
+      Get["/"] = _ => View["index.cshtml"];
     }
   }
 }
