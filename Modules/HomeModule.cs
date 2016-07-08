@@ -24,10 +24,6 @@ namespace ContactList
         Contact.ClearAll();
         return View["contacts_cleared.cshtml"];
       };
-      Post["/contacts_cleared"] = _ => {
-        Contact.ClearAll();
-        return View["contacts_cleared.cshtml"];
-      };
     }
   }
 }
